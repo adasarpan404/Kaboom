@@ -3,7 +3,6 @@ const FLOOR_HEIGHT = 48;
 const JUMP_FORCE = 800;
 const SPEED = 480;
 
-
 const k = kaboom();
 
 k.loadSprite("bean", "sprites/bean.png");
@@ -52,7 +51,6 @@ k.scene("game", () => {
 		]);
 
 		k.wait(k.rand(0.5, 1.5), spawnTree);
-
 	}
 
 	spawnTree();
